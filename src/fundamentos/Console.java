@@ -1,0 +1,20 @@
+package fundamentos;
+
+public class Console {
+	public static void main(String[] args) {
+		
+		System.out.print("Bom");
+		System.out.print(" dia!\n");
+		
+		System.out.println("Bom");
+		System.out.println("dia!");
+		
+		System.out.printf("Mega Sena : %d, %d, %d, %d, %d, %d ", 1,2,3,4,5,6);
+		System.out.println();
+		String megaSena = String.format("Resultado da Mega Sena : %d, %d, %d, %d, %d, %d", 1,2,3,4,5,6);
+		System.out.println(megaSena);
+		
+		
+	}
+
+}
