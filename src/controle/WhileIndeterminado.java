@@ -11,7 +11,7 @@ public class WhileIndeterminado {
 		System.out.println("Digite a palavra chave para Sair.");
 		
 		String palavra = "";
-		
+		 
 		while(!palavra.equalsIgnoreCase("sair")) {
 			
 			palavra = leitura.nextLine();
