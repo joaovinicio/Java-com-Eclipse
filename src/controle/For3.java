@@ -1,0 +1,25 @@
+package controle;
+
+public class For3 {
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+//		int i = 0;
+//		for(; i <10; i++) {
+//			System.out.println(i);
+//		}
+//		System.out.println("Saiu do For.");
+//		System.out.println(i);
+		
+		for(int x=0; x<10; x++) {
+			for(int y = 0; y<10; y++) {
+				System.out.printf("[%d %d]",x,y);
+			}
+			System.out.println();
+		}
+		
+	}
+
+}

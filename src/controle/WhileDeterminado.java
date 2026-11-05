@@ -4,11 +4,13 @@ public class WhileDeterminado {
 
 	public static void main(String[] args) {
 		
-		int contador = 1;
+		double valor = 1;
 		
-		while(contador <=10) {
-			System.out.printf("Contador = %d\n",contador);
-			contador++;
+		while(valor <=10) {
+			System.out.println("Valor = "+valor);
+			valor++;
+			
 		}
 	}
 }
+
